@@ -1,4 +1,4 @@
-import { OrderService } from "src/order-management/application/order.service";
+import { OrderService } from "../../application/order.service";
 import { Body, Controller, Post, Route } from "tsoa";
 import { OrderRepositoryPrismaSqlite } from "../order.repository";
 import { Order } from '../../domain/order';
