@@ -1,6 +1,6 @@
 import { IOrderRepository } from '../domain/interfaces/order.interface';
 import { Order } from '../domain/order';
-import prisma from '../../../dist/prisma/index';
+import prisma from '../../../prisma/index';
 
 export class OrderRepositoryPrismaSqlite implements IOrderRepository {
   public async addOrder(order: Order): Promise<Order> {
